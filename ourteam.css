@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('teambg.png'); /* Replace 'your-image.jpg' with your image file path */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif; /* Changing font style to Times New Roman */
+    height: 100vh;
+    display: flex;
+   
+}
+
+header {
+    background-color: rgba(173, 173, 173, 0); /* Transparent black color */
+    width: 100%;
+    position: fixed;
+    top: 5%;
+    font-family: Calibri, sans-serif; /* Changing font style to Calibri */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(70, 57, 57);
+    font-size: 18px;
+}
+
+.content {
+    float: left;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 60px;
+    
+}
+
+h1 {
+    font-size: 36px;
+    margin-left: -10%;
+    color: #333;
+}
+
+.team-member {
+    display: block;
+    margin: 5px;
+}
+
+.team-member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+
+.member-details {
+   
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top; /* Align text to the top of the image */
+    margin-left: 20px; /* Add margin to separate image and text */
+}
+
+.member-details h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif; /* Changing font style to Calibri */
+    margin: 5px 0;
+    font-size: 24px;
+}
+
+.member-details p {
+    font-family: Calibri, sans-serif; /* Changing font style to Calibri */
+    margin: 5px 0;
+    font-size: 18px;
+}

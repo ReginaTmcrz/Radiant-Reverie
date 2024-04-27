@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('aboutusbg.png'); /* Replace 'your-image.jpg' with your image file path */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif; /* Changing font style to Times New Roman */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: rgba(173, 173, 173, 0); /* Transparent black color */
+    width: 100%;
+    position: fixed;
+    top: 10%;
+    font-family: Calibri, sans-serif; /* Changing font style to Calibri */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+    margin-left: 40px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(70, 57, 57);
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 60px; /* Adjust the size of the h1 text */
+    
+}
+
+.content {
+    text-align: center;
+    color: rgb(70, 57, 57);
+    margin-top: -5%; /* Adjust content position to avoid overlapping with header */
+}
